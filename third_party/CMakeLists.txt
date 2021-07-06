@@ -52,3 +52,7 @@ add_subdirectory(spdlog)
 
 #### xxHash
 add_subdirectory(xxHash/cmake_unofficial)
+
+#### Google Benchmark
+set(BENCHMARK_DOWNLOAD_DEPENDENCIES ON CACHE BOOL "Allow benchmark to download dependencies for building.")
+add_subdirectory(benchmark)
